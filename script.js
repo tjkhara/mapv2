@@ -15,7 +15,7 @@ function showMap(coords) {
 	var mapOptions = {
 		zoom: 11,
 		center: googleLatLong,
-		mapTypeId: google.maps.MapTypeId.TERRAIN
+		mapTypeId: google.maps.MapTypeId.ROAD
 	};
 
 	var mapDiv = document.getElementById("map");
